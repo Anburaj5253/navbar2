@@ -1,0 +1,122 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:90%;
+	margin:0 auto;
+}
+.row
+{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+}
+.align
+{
+	align-items:center;
+}
+.col-1
+{
+	width:8.33%;
+	padding:0 15px;
+}
+.col-2
+{
+	width:16.66%;
+	padding:0 15px;
+}
+.col-3
+{
+	width:25%;
+	padding:0 15px;
+}
+.col-4
+{
+	width:33.33%;
+	padding:0 15px;
+}
+.col-5
+{
+	width:41.66%;
+	padding:0 15px;
+}
+.col-6
+{
+	width:50%;
+	padding:0 15px;
+}
+.col-7
+{
+	width:58%;
+	padding:0 15px;
+}
+.col-8
+{
+	width:66.66%;
+	padding:0 15px;
+}
+.col-9
+{
+	width:75%;
+	padding:0 15px;
+}
+.col-10
+{
+	width:83.33%;
+	padding:0 15px;
+}
+.col-11
+{
+	width:91.66%;
+	padding:0 15px;
+}
+.col-12
+{
+	width:100%;
+	padding:0 15px;
+}
+#header
+{
+	background-color:black;
+	padding:15px 0;
+}
+.main-nav h2 a
+{
+	text-decoration:none;
+	color:white;
+}
+
+.menu-bar ul
+{
+	display:flex;
+	justify-content:space-between;
+	
+}
+.menu-bar  a
+{
+	text-decoration:none;
+	color:white;
+}
+.menu-bar ul li
+{
+	list-style-type:none;
+}
+.menu-bar ul li a i
+{
+	margin-left:5px;
+}
+.menu-bar ul li a:hover , .menu-bar ul li a.active
+
+{
+	background-color:red;
+	width:100%;
+	height:auto;
+	transition:all 0.5s ease;
+	padding:20px;
+}
+	
+
+	
